@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  
+}
+
+.header{
+  padding: 20px;
+  background-color: aqua;
+  width: 100%;
+}
+
+.options {
+  list-style-type: none;
+  list-style: none;
+}
+
+.options a {
+  text-decoration: none;
+}
+
+
+
+.options{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  padding-left: 50px;
+}
